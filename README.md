@@ -3,6 +3,8 @@
 ### Please do well to consume this API with an API tester, like POSTMAN
 
 # API Documentation
+Authentication Token Type - (JWT / Bearer)
+
 - [Live Project's Base URL](http://crypticwisdom.pythonanywhere.com/) - [http://crypticwisdom.pythonanywhere.com/]
 
 - [Sign-UP](http://crypticwisdom.pythonanywhere.com/account/sign-up/) - [http://crypticwisdom.pythonanywhere.com/account/sign-up/]
