@@ -21,7 +21,7 @@ class PostCRUD(APIView):
             title = data.get("title")
             likes = data.get("likes")
 
-            post = Post.objects.create(owner=User.objects.get(pk=owner), title=title, content=content)
+            post = Post.objects.create(owner=User.objects.get(pk=request.user.id), title=title, content=content)
             if post is not None:
                 return Response({"detail": f"{title} Post Successfully Created",
                                  "data": PostCreationSerializer(post).data})
