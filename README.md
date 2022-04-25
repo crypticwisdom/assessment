@@ -23,7 +23,7 @@ Authentication Token Type - (JWT / Bearer)
   - Method - POST
   - Parameter - (title, content)
   
-- [Like Particular Post](http://crypticwisdom.pythonanywhere.com/post/like/<post-slug>/)-[http://crypticwisdom.pythonanywhere.com/post/like/<post-slug>]
+- [Like Particular Post](http://crypticwisdom.pythonanywhere.com/post/like/<post-slug>/)-[http://crypticwisdom.pythonanywhere.com/post/like/{slug}/]
   - Method - POST
   - Parameter - (slug) post's unique identifier.
   
@@ -31,11 +31,11 @@ Authentication Token Type - (JWT / Bearer)
   - Method - GET
   - Parameter - No parameter
   
-- [Delete a Post](http://crypticwisdom.pythonanywhere.com/post/delete/<post-slug>/) - [http://crypticwisdom.pythonanywhere.com/post/delete/<post-slug>/]
+- [Delete a Post](http://crypticwisdom.pythonanywhere.com/post/delete/<post-slug>/) - [http://crypticwisdom.pythonanywhere.com/post/delete/{slug}/]
   - Method - Delete
   - Parameter - (slug) post's unique identifier.
   
-- [Update a Post](http://crypticwisdom.pythonanywhere.com/post/update/<post-slug>/) - [http://crypticwisdom.pythonanywhere.com/post/update/<post-slug>/]
+- [Update a Post](http://crypticwisdom.pythonanywhere.com/post/update/<post-slug>/) - [http://crypticwisdom.pythonanywhere.com/post/update/{slug}/]
   - Method - PUT
   - Parameter - (slug) post's unique identifier.
  
