@@ -23,7 +23,7 @@ Authentication Token Type - (JWT / Bearer)
   - Method - POST
   - Parameter - (title, content)
   
-- [Like Particular Post](http://crypticwisdom.pythonanywhere.com/post/like/<post-slug>/) - [http://crypticwisdom.pythonanywhere.com/post/like/<post-slug>/]
+- [Like Particular Post](http://crypticwisdom.pythonanywhere.com/post/like/<post-slug>/)-[http://crypticwisdom.pythonanywhere.com/post/like/<post-slug>/]
   - Method - POST
   - Parameter - (slug) post's unique identifier.
   
