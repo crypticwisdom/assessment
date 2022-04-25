@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+  <center>
+      <h1>Backend Instructor Assessment </h1>
+      <h4><a href='https://www.github.com/crypticwisdom/instructor_assessment'>See API Documentation</a></h4>
+  </center>
+    <ul>
+        <li><h3>List of all endpoints</h3></li>
+        <li><a href="{% url 'home' %}">Home</a></li>
+        <li><b>{{ request.get_host }}/account/sign-up/</b> - Sign Up</li>
+        <li><b>{{ request.get_host }}/auth/jwt/create/</b> - Login</li>
+        <li><b>{{ request.get_host }}/auth/jwt/refresh/</b> - Refresh Token</li>
+        <li><b>{{ request.get_host }}/post/create/</b> - Create Post</li>
+        <li><b>{{ request.get_host }}/post/like/(post-slug)/</b> - e.g {{ request.get_host }}/post/like/323riuwfeif-r3-fwef-we/  - Like Post</li>
+        <li><b>{{ request.get_host }}/post/list/</b> - List of all Post</li>
+        <li><b>{{ request.get_host }}/post/delete/(post-slug)/</b> : e.g /post/delete/766eecd5-b597-4322-af57-f3a7f99e9d95/ - Delete a post</li>
+        <li><b>{{ request.get_host }}/post/update/(post-slug)/</b> : e.g /post/update/766eecd5-b597-4322-af57-f3a7f99e9d95/- Update a post</li>
+        <li><b>{{ request.get_host }}/post/list/</b> - List of all Post</li>
+
+    </ul>
+</div>
+
+</body>
+</html>
