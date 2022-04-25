@@ -42,7 +42,7 @@ class SignUpView(APIView):
                 password=make_password(password),
             )
             if user is not None:
-                return Response({"detail": "Successfully created user", "access_token": AccessToken}, status=status.HTTP_200_OK)
+                return Response({"detail": "Successfully created user"}, status=status.HTTP_200_OK)
 
             return Response({"detail": "Something Unexpected Happened"}, status=status.HTTP_400_BAD_REQUEST)
         except (Exception, ) as err:
